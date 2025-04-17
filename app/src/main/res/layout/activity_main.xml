@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/dietInput"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter diet (e.g. vegan)"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/calorieInput"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:hint="Enter calories (e.g. 1500)"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:text="Get Meal Plan" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="193dp"
+        android:text="Results will show here" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="8dp"/>
+</LinearLayout>
