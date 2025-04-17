@@ -9,12 +9,6 @@
 - 📆 Aims to support raw vegan, pescatarian, and low-iron diets.
 - 🔔 Built with user health and motivation in mind.
 
-### 📸 Screenshots
-
-![Vegetarian Screenshot](screenshots/vegetarian.png)
-![Vegan Screenshot](screenshots/vegan.png)
-
-
 ### 🛠️ Tech Stack
 - **Java**
 - **Android Studio**
