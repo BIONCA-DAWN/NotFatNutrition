@@ -1,15 +1,43 @@
+# Android Studio
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+.idea/
+.gradle/
 local.properties
+
+# Build and output folders
+/build/
+*/build/
+.cxx/
+.externalNativeBuild/
+captures/
+
+# macOS system files
+.DS_Store
+
+# IntelliJ
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Signing keys
+*.jks
+*.keystore
+
+# Compiled code
+*.class
+*.dex
+
+# APK and AAB files
+*.apk
+*.ap_
+*.aab
+
+# Logs
+*.log
+
+google-services.json
+apikey.properties
+
